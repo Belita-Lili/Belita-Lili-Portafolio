@@ -11,7 +11,7 @@ html{
 }
 /* MENU */
 .contenedor-header{
-    background: #259b9b;
+    background: #000;
     position: fixed;
     width: 100%;
     top: 0;
@@ -48,7 +48,7 @@ html{
     color: #ff1964;
 }
 .nav-responsive{
-    background-color: #ff1964 rgb(184, 214, 176);
+    background-color: #ff1964 #565656;
     color:#fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -57,8 +57,8 @@ html{
 }
 /* SECCION I N I C I O */
 .inicio{
-    background: linear-gradient(to top, rgba(184, 214, 176, 0.8), rgba(184, 214, 176, 0.4)),
-    url(img/fondo.jpg);
+    background: linear-gradient(to top, #565656, rgba(184, 214, 176, 0.4)),
+    url(img/fondo.png);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -68,7 +68,7 @@ html{
 
 .inicio .contenido-banner{
     padding: 20px;
-    background-color: rgb(111, 188, 170);
+    background-color: #565656;
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -108,7 +108,7 @@ html{
     background-color: #ff1964;
 }
 .sobremi{
-    background-color: #6fbcaa;
+    background-color: #000;
     color: #fff;
     padding: 50px 20px;
 }
@@ -168,7 +168,7 @@ html{
 .sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: #b8d6b0;
+    background-color: #fd7b7b;
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -211,7 +211,7 @@ html{
 }
 /* SECCION S K I L L S */
 .skills{
-    background-color: #b8d6b0;
+    background-color: #565656;
     color: #fff;
     padding: 50px 20px;
 }
@@ -285,83 +285,83 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 90%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .go{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s go forwards;
 }
-@keyframes photoshop {
+@keyframes go {
     0%{width: 0%;}
     100%{width: 30%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .python{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s python forwards;
 }
-@keyframes wordpress {
+@keyframes python {
     0%{width: 0%;}
     100%{width: 30%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .matlab{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s matlab forwards;
 }
-@keyframes drupal {
+@keyframes matlab{
     0%{width: 0%;}
     100%{width: 25%;}
 }
 
-.skills .skill .comunicacion{
+.skills .skill .helioscope{
     width: 0%;
-    animation: 2s comunicacion forwards;
+    animation: 2s helioscope forwards;
 }
-@keyframes comunicacion {
-    0%{width: 0%;}
-    100%{width: 80%;}
-}
-
-.skills .skill .trabajo{
-    width: 0%;
-    animation: 2s trabajo forwards;
-}
-@keyframes trabajo {
+@keyframes helioscope{
     0%{width: 0%;}
     100%{width: 70%;}
 }
 
-.skills .skill .creatividad{
+.skills .skill .autocad{
     width: 0%;
-    animation: 2s creatividad forwards;
+    animation: 2s autocad forwards;
 }
-@keyframes creatividad {
+@keyframes autocad {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 80%;}
 }
 
-.skills .skill .dedicacion{
+.skills .skill .pvsyst{
     width: 0%;
-    animation: 2s dedicacion forwards;
+    animation: 2s pvsyst forwards;
 }
-@keyframes dedicacion {
+@keyframes pvsyst {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 70%;}
 }
 
-.skills .skill .proyect{
+.skills .skill .librecad{
     width: 0%;
-    animation: 2s proyect forwards;
+    animation: 2s librecad forwards;
 }
-@keyframes proyect {
+@keyframes librecad {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .inventor{
+    width: 0%;
+    animation: 2s inventor forwards;
+}
+@keyframes inventor {
+    0%{width: 0%;}
+    100%{width: 90%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
-    background-color: #6fbcaa;
+    background-color: #000;
     color: #fff;
     padding: 50px 20px;
 }
@@ -390,15 +390,15 @@ html{
     margin-bottom: 25px;
 }
 .curriculum .fila .izquierda{
-    border-right: 2px solid #b8d6b0;
+    border-right: 2px solid #fd7b7b;
 }
 .curriculum .fila .derecha{
-    border-left: 2px solid #b8d6b0;
+    border-left: 2px solid #fd7b7b;
 }
 .curriculum .fila .item{
     padding: 25px;
     margin-bottom: 30px;
-    background-color: #b8d6b0;
+    background-color: #fd7b7b;
     position: relative;
 }
 .curriculum .fila .item h4{
@@ -406,14 +406,14 @@ html{
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #ff1964;
+    color: #000;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color: #ff1964;
+    color: #000;
     margin-bottom: 10px;
 }
 .curriculum .fila .item p{
@@ -467,7 +467,7 @@ html{
 }
 /* SECCION PORTFOLIO */
 .portfolio{
-    background-color: #b8d6b0;
+    background-color: #565656;
     color: #fff;
     padding: 50px 20px;
 }
@@ -503,7 +503,7 @@ html{
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+    background: linear-gradient(#ff1964, #fd7b7b);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -525,7 +525,7 @@ html{
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(img/contact_bg.png);
-    background-color: #6fbcaa;
+    background-color: #000;
     color: #fff;
     padding: 50px 0;
 }
@@ -553,7 +553,7 @@ html{
     padding: 18px;
     border: none;
     margin-bottom: 20px;
-    background-color: #b8d6b0;
+    background-color: #565656;
     color: #fff;
     font-size: 18px;
 }
@@ -589,7 +589,7 @@ html{
 .contacto .col .info{
     position: absolute;
     top: 40%;
-    background-color: #b8d6b0;
+    background-color: #565656;
     padding: 20px;
     max-width: 350px;
     left: 50%;
@@ -607,7 +607,7 @@ html{
     margin-right: 20px;
 }
 footer{
-    background-color: #b8d6b0;
+    background-color: #565656;
     color: #fff;
     padding: 50px 0 30px 0;
     text-align: center;
@@ -657,7 +657,7 @@ footer .arriba{
         position: absolute;
         right: 0;
         top: 75px;
-        background-color: #b8d6b0;
+        background-color: #565656;
         width: 180px;
     }
     nav.responsive ul{
