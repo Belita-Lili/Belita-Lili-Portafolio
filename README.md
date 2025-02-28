@@ -17,9 +17,7 @@ Este repositorio contiene el código fuente de mi portafolio personal, donde mue
 
 7. Contribución
 
-8. Licencia
-
-9. Contacto
+8. Contacto
 
 ## Descripción del Proyecto
 Este proyecto es mi portafolio personal, donde muestro mi CV en formato web. El portafolio está diseñado para ser visualizado en cualquier navegador moderno y es completamente responsive. Incluye secciones como:
