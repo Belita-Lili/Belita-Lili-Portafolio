@@ -114,15 +114,6 @@ git push origin nombre-de-tu-rama
 Abre un Pull Request en GitHub.
 
 
-## Contacto
-Si deseas contactarme para oportunidades laborales, colaboraciones o simplemente para saludar, no dudes en escribirme:
-
-Nombre: Liliana Becerril Tapia
-
-Email: lbecerriltap@gmail.com
-
-LinkedIn: linkedin.com/in/liliana-beta
-
 GitHub: github.com/Belita-Lili
 
 Visita el Portafolio en Línea
