@@ -1,6 +1,7 @@
 # Belita-Lili-Portafolio
 ## Portafolio de CV - Liliana Becerril Tapia
 Este repositorio contiene el código fuente de mi portafolio personal, donde muestro mi CV en línea. El portafolio está diseñado para ser responsive, interactivo y fácil de navegar, mostrando mi experiencia, habilidades, proyectos y más.
+<img width="1599" height="764" alt="image" src="https://github.com/user-attachments/assets/a0ecd2d9-f04e-4035-aaad-550bd59bdd11" />
 
 ## Tabla de Contenidos
 1. Descripción del Proyecto
@@ -47,24 +48,6 @@ Estilos Personalizados: Uso de CSS para un diseño moderno y atractivo.
 
 Fácil de Modificar: Estructura clara y bien documentada para personalizar el contenido.
 
-Instalación
-Si deseas clonar este proyecto y ejecutarlo localmente, sigue estos pasos:
-
-Clona el repositorio:
-
-```r
-git clone https://github.com/Belita-Lili/Belita-Lili-Portafolio.git
-```
-Navega al directorio del proyecto:
-
-```r
-cd Belita-Lili-Portafolio
-```
-Abre el archivo index.html en tu navegador:
-
-```r
-open index.html
-```
 ## Uso
 
 1. Una vez que hayas abierto el archivo index.html en tu navegador, podrás:
@@ -85,12 +68,8 @@ Belita-Lili-Portafolio/
 ├── img/                  # Carpeta con imágenes utilizadas en el portafolio
 │   └── foto.png          # Imagen de perfil
 ├── CV/                   # Carpeta con los PDFs de los CVs
-│   └── CV_LILI.pdf       # CV general
-│   └── CV_LILI_DEV.pdf   
-│   └── CV_LILI_ENERGY.pdf      
+│   └── CV_LILI.pdf       # CV general     
 ├── Project/              # Carpeta con los PDFs de los proyectos
-│   └── Diabetes.pdf
-│   └── Fondas.pdf
 │   └── PFV.pdf
 │   └── PFV1.pdf
 │   └── PFV2.pdf
@@ -98,6 +77,7 @@ Belita-Lili-Portafolio/
 │   └── TT.pdf    
 ├── styles.css            # Archivo de estilos principal
 ├── main.js               # Archivo JavaScript principal
+├── translations.js       # Archivo JavaScript para cambiar idioma
 ├── index.html            # Archivo principal HTML
 ├── README.md             # Archivo README (este archivo)
 ```
